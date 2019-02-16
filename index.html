@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Math table</title>
+    <link rel="stylesheet" href="style.mini.css">
+</head>
+<body>
+   <div id="container">
+       <div id="score">
+           Score: <span id="scorevalue"></span>
+       </div>
+       <div id="correct">
+           Correct
+       </div>
+       <div id="tryagain">
+           Try Again
+       </div>
+       <div id="crossDisplay">
+           <span id="crossValue"></span>
+       </div>
+       <div id="guide">
+           Click on the correct answer
+       </div>
+       <div id="choice1" class="box"></div>
+       <div id="choice2" class="box"></div>
+       <div id="choice3" class="box"></div>
+       <div id="choice4" class="box"></div>
+       <div id="gameover">
+           GAME OVER! <br><br> YOUR SCORE IS <span id="finalScore">0</span>.
+       </div>
+       <button id="start" onclick="startBtn()">
+           <span id="btnText">Start Game</span>
+       </button>
+       <div id="timer">
+           Time remaining: <span id="timeValue">0</span> sec
+       </div>
+   </div>
+    <script src="javascript.mini.js"></script>
+</body>
+</html>
